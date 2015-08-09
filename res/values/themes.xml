@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 홈 -->
+
+    <style name="HomeActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarHome</item>
+        <item name="actionBarStyle">@style/MyActionBarHome</item>
+    </style>
+
+    <style name="MyActionBarHome" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_home</item>
+        <item name="background">@drawable/actionbar_background_home</item>
+    </style>
+
+    <!-- 배려하는법 -->
+
+    <style name="One" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarOne</item>
+        <item name="actionBarStyle">@style/MyActionBarOne</item>
+    </style>
+
+    <style name="MyActionBarOne" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_1</item>
+        <item name="background">@drawable/actionbar_background_1</item>
+    </style>
+
+    <!-- 배려지침상세 -->
+
+    <style name="Two" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarTwo</item>
+        <item name="actionBarStyle">@style/MyActionBarTwo</item>
+    </style>
+
+    <style name="MyActionBarTwo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_2</item>
+        <item name="background">@drawable/actionbar_background_2</item>
+    </style>
+
+    <!-- 교육 -->
+
+    <style name="Three" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarThree</item>
+        <item name="actionBarStyle">@style/MyActionBarThree</item>
+    </style>
+
+    <style name="MyActionBarThree" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_3</item>
+        <item name="background">@drawable/actionbar_background_3</item>
+    </style>
+
+    <!-- 즐겨찾기홈 -->
+    <style name="Five" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarFive</item>
+        <item name="actionBarStyle">@style/MyActionBarFive</item>
+    </style>
+
+    <style name="MyActionBarFive" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_5</item>
+        <item name="background">@drawable/actionbar_background_5</item>
+    </style>
+
+    <!-- NewActionBar -->
+    <style name="MyActionBarNewMain" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarNew</item>
+        <item name="actionBarStyle">@style/MyActionBarNew</item>
+    </style>
+
+    <style name="MyActionBarNew" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/new_actionbar_background</item>
+        <item name="background">@drawable/new_actionbar_background</item>
+    </style>
+
+</resources>

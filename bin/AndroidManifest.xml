@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quki.gongmo.bary"
+    android:versionCode="10"
+    android:versionName="1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.quki.gongmo.bary.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.quki.gongmo.bary.permission.MAPS_RECEIVE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logorounded"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/HomeActionBarTheme" >
+        </activity>
+        <activity
+            android:name=".BaryuHanenBub"
+            android:label="@string/title_activity_baryu_hanen_bub"
+            android:theme="@style/One" >
+        </activity>
+        <activity
+            android:name=".SangseFirst"
+            android:label="@string/title_activity_sangse_first"
+            android:theme="@style/Two" >
+        </activity>
+        <activity
+            android:name=".SangseSecond"
+            android:label="@string/title_activity_sangse_second"
+            android:theme="@style/Two" >
+        </activity>
+        <activity
+            android:name=".BookmarkHome"
+            android:label="@string/title_activity_bookmark_home"
+            android:theme="@style/Five" >
+        </activity>
+        <activity
+            android:name=".BookmarkSangse"
+            android:label="@string/title_activity_bookmark_sangse" >
+        </activity>
+        <activity
+            android:name=".GyuoFirst"
+            android:label="@string/title_activity_gyuo"
+            android:theme="@style/Three" >
+        </activity>
+        <activity
+            android:name=".GyuoSecond"
+            android:label="@string/title_activity_gyuo_second"
+            android:theme="@style/Three" >
+        </activity>
+        <activity
+            android:name=".GyuoThird"
+            android:label="@string/title_activity_gyuo_third"
+            android:theme="@style/Three" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBnCDpcdatMY_nfVJ2TCJETLhpOoQkAvSY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".BookmarkGyuo"
+            android:label="@string/title_activity_bookmark_gyuo" >
+        </activity>
+        <activity
+            android:name=".FromBookmarkGyuo"
+            android:label="@string/title_activity_from_bookmark_gyuo"
+            android:theme="@style/Three" >
+        </activity>
+    </application>
+
+</manifest>

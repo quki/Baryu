@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 그라데이션 면 채우기 -->
+    <gradient
+        android:centerColor="#FAFAFA"
+        android:endColor="#E0E0E0"
+        android:startColor="#E0E0E0"
+        android:type="linear"
+        android:angle="90" />
+
+</shape>

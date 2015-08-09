@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="splash">#00BFA5</color>
+     
+    <color name="feed_bg">#EEEEEE</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="color_subtitle">#a0a3a7</color>
+
+    <!-- button -->
+    <color name="clickstate">#C5CAE9</color>
+    <color name="home_btn_one">#4CAF50</color>
+    <color name="home_btn_two">#F44336</color>
+    <color name="home_btn_three">#9C27B0</color>
+    <color name="home_btn_four">#3F51B5</color>
+    <color name="home_btn_five">#FFC107</color>
+    <color name="home_btn_six">#EEEEEE</color>
+    
+    <!-- ListView -->
+    <color name="list_one_parent">#F1F8E9</color>
+    <color name="list_one_child">#DCEDC8</color>
+    
+    <!-- New ActionBar -->
+     <color name="actionbar_new_color">#3f51b5</color>
+     
+     <!-- 홈 ActionBar -->
+     <color name="actionbar_home">#00BFA5</color>
+
+</resources>
+

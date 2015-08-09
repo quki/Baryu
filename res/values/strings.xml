@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">배려</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_book_mark">BookMarkActivity</string>
+    <string name="title_activity_bookmark_home">BookmarkHome</string>
+    <string name="title_activity_baryu_hanen">BaryuHanen</string>
+    <string name="title_activity_facebook">Facebook</string>
+    <string name="title_activity_saupjang">Saupjang</string>
+    <string name="title_activity_sub_saubjang">SubSaubjang</string>
+    <string name="title_activity_home_saupjang">HomeSaupjang</string>
+    <string name="title_activity_book_mark_saup">BookMarkSaup</string>
+    <string name="title_activity_from_book_saup">FromBookSaup</string>
+    <string name="title_activity_baryu_hanen_bub">BaryuHanenBub</string>
+    <string name="title_activity_sangse_first">SangseFirst</string>
+    <string name="title_activity_sangse_second">SangseSecond</string>
+    <string name="title_activity_bookmark_sangse">BookmarkSangse</string>
+    <string name="title_activity_gyuo">Gyuo</string>
+    <string name="title_activity_gyuo_second">GyuoSecond</string>
+    <string name="title_activity_gyuo_third">GyuoThird</string>
+    <string name="title_activity_bookmark_gyuo">BookmarkGyuo</string>
+    <string name="title_activity_from_bookmark_gyuo">FromBookmarkGyuo</string>
+
+</resources>

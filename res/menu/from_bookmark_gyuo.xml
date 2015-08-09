@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.quki.gongmo.bary.FromBookmarkGyuo" >
+ <item
+        android:id="@+id/actShare1"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="100"
+        android:title="공유"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/actHome1"
+        android:orderInCategory="100"
+        android:title="홈화면으로 이동"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/actBook1"
+        android:orderInCategory="100"
+        android:title="즐겨찾기로 이동"
+        app:showAsAction="never"/>
+
+</menu>

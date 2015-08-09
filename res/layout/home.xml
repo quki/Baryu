@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feed_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_1"
+            android:drawableLeft="@drawable/ic_question"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="&apos;배려&apos;하는 법"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_2"
+            android:drawableLeft="@drawable/ic_glass"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="배려지침상세"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_3"
+            android:drawableLeft="@drawable/ic_name_card"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="직업훈련기관"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_4"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:drawablePadding="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="커뮤니티"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_5"
+            android:drawableLeft="@drawable/ic_heart"
+            android:drawablePadding="17dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="즐겨찾기"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_rounded_and_clicked_6"
+            android:drawableLeft="@drawable/katsonce"
+            android:gravity="center_vertical"
+            android:paddingLeft="80dp"
+            android:text="국가기술표준원"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
