@@ -19,6 +19,8 @@ public final class R {
         public static final int abc_slide_in_top=0x7f040007;
         public static final int abc_slide_out_bottom=0x7f040008;
         public static final int abc_slide_out_top=0x7f040009;
+        public static final int anim_alpha_translate_listview=0x7f04000a;
+        public static final int anim_layout_controller=0x7f04000b;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -2438,10 +2440,11 @@ containing a value of this type.
         public static final int listview_one_parent=0x7f020079;
         public static final int logorounded=0x7f02007a;
         public static final int new_actionbar_background=0x7f02007b;
-        public static final int notification_template_icon_bg=0x7f02007f;
+        public static final int notification_template_icon_bg=0x7f020080;
         public static final int powered_by_google_dark=0x7f02007c;
         public static final int powered_by_google_light=0x7f02007d;
-        public static final int true_small=0x7f02007e;
+        public static final int teamlogo=0x7f02007e;
+        public static final int true_small=0x7f02007f;
     }
     public static final class id {
         public static final int MainTitle=0x7f0a0095;

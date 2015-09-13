@@ -1,6 +1,9 @@
 package com.quki.gongmo.bary.app;
 
+import java.lang.reflect.Field;
+
 import android.app.Application;
+import android.graphics.Typeface;
 import android.text.TextUtils;
 
 import com.android.volley.Request;
@@ -23,7 +26,7 @@ public class AppController extends Application {
 		super.onCreate();
 
 		mInstance = this;
-
+		initDefaultTypeface();
 	}
 
 	public static synchronized AppController getInstance() {
@@ -62,6 +65,20 @@ public class AppController extends Application {
 			mRequestQueue.cancelAll(tag);
 		}
 	}
-
+	// Custom Font ³ª´®°íµñ
+    private void initDefaultTypeface() {
+        try {
+            Typeface defaultTypeface = Typeface.createFromAsset(getAssets(), "fonts/NanumGothic.ttf");
+            final Field field = Typeface.class.getDeclaredField("DEFAULT");
+            field.setAccessible(true);
+            field.set(null, defaultTypeface);
+        } catch ( NoSuchFieldException e ) {
+             e.printStackTrace();
+        } catch ( IllegalArgumentException e ) {
+            e.printStackTrace();
+        } catch ( IllegalAccessException e ) {
+            e.printStackTrace();
+         }
+    }
 }
 

@@ -141,7 +141,7 @@ public class SangseSecond extends AppCompatActivity {
 							boolean isChecked) {
 
 						if (checkBox1.isChecked() == true) {
-							Toast.makeText(getApplicationContext(),
+							Toast.makeText(SangseSecond.this,
 									"즐겨찾기에 등록되었습니다", Toast.LENGTH_SHORT).show();
 							sqlDB = myDBHelper.getWritableDatabase();
 							sqlDB.execSQL("insert into bookmark_SANGI values('"
@@ -150,7 +150,7 @@ public class SangseSecond extends AppCompatActivity {
 							sqlDB.close();
 
 						} else {
-							Toast.makeText(getApplicationContext(),
+							Toast.makeText(SangseSecond.this,
 									"즐겨찾기에서 삭제되었습니다", Toast.LENGTH_SHORT)
 									.show();
 							sqlDB = myDBHelper.getWritableDatabase();

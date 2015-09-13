@@ -152,7 +152,7 @@ public class GyuoThird extends AppCompatActivity implements
 					boolean isChecked) {
 
 				if (checkBox.isChecked() == true) {
-					Toast.makeText(getApplicationContext(), "즐겨찾기에 등록되었습니다",
+					Toast.makeText(GyuoThird.this, "즐겨찾기에 등록되었습니다",
 							Toast.LENGTH_SHORT).show();
 					sqlDB = myDBHelper.getWritableDatabase();
 					sqlDB.execSQL("insert into bookmark_SAUP values('" + local
@@ -162,7 +162,7 @@ public class GyuoThird extends AppCompatActivity implements
 					sqlDB.close();
 
 				} else {
-					Toast.makeText(getApplicationContext(), "즐겨찾기에서 삭제되었습니다",
+					Toast.makeText(GyuoThird.this, "즐겨찾기에서 삭제되었습니다",
 							Toast.LENGTH_SHORT).show();
 					sqlDB = myDBHelper.getWritableDatabase();
 					sqlDB.execSQL("DELETE FROM bookmark_SAUP where pho='" + pho

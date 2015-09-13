@@ -123,8 +123,6 @@ public class Home extends ActionBarActivity {
 			myTimer timer = new myTimer(2000, 1); // 2초동안 수행
 			timer.start(); // 타이머를 이용해줍시다
 		} else {
-			Toast.makeText(getApplicationContext(), "다음에 또 '배려'해요",
-					Toast.LENGTH_SHORT).show();
 			// android.os.Process.killProcess(android.os.Process.myPid());
 			// //프로세스 끝내기
 			finish();

@@ -51,12 +51,12 @@
             android:id="@+id/txtView1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:textColor="#424242"
             android:paddingBottom="@dimen/feed_item_status_pad_top"
             android:paddingLeft="@dimen/feed_item_status_pad_left_right"
             android:paddingRight="@dimen/feed_item_status_pad_left_right"
             android:paddingTop="@dimen/feed_item_status_pad_top"
-            android:textSize="@dimen/feed_item_title"
-            android:textStyle="bold" />
+            android:textSize="@dimen/feed_item_title"/>
 
         <ScrollView
             android:layout_width="fill_parent"

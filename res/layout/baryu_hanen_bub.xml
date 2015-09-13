@@ -16,7 +16,7 @@
             android:layout_marginRight="@dimen/feed_item_margin"
             android:layout_marginTop="@dimen/feed_item_margin"
             android:text=" '배려'"
-            android:textStyle="bold" />
+            android:textColor="#424242"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/feed_item_margin"
                 android:layout_marginRight="@dimen/feed_item_margin"
-                android:text="‘배려’는 사회적 약자를 배려하는 구체적인 방법을 제공합니다." />
+                android:text="‘직업훈련기관찾기’는 사회적 약자를 배려하는 구체적인 방법을 제공합니다." />
         </LinearLayout>
 
         <TextView
@@ -43,9 +43,8 @@
             android:layout_marginLeft="@dimen/feed_item_margin"
             android:layout_marginRight="@dimen/feed_item_margin"
             android:layout_marginTop="@dimen/feed_item_margin"
-            android:text=" &apos;배려&apos;이용방법"
-            android:textStyle="bold" />
-
+            android:text=" 이용방법"
+			android:textColor="#424242"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/feed_item_margin"
                 android:layout_marginRight="@dimen/feed_item_margin"
-                android:text="배려에도 지침이 있다!\n - 배려지침상세\n\n사회적 약자들에게 \n교육과 고용의 기회를 제공한다!\n - 직업훈련기관\n\nSNS로 배려활동이라는 \n하나의 패러다임을 만든다!\n - 커뮤니티\n\n배려활동을 위해 필요한 정보만 \n쏙 빼서 관리한다!\n - 즐겨찾기\n\n자세한 사항은 커뮤니티를 참고하세요." />
+                android:text="배려에도 지침이 있다!\n\n - 배려지침상세\n\n사회적 약자들에게 \n교육과 고용의 기회를 제공한다!\n\n - 직업훈련기관\n\nSNS로 배려활동이라는 \n하나의 패러다임을 만든다!\n\n - 커뮤니티\n\n배려활동을 위해 필요한 정보만 \n쏙 빼서 관리한다!\n\n - 즐겨찾기\n\n자세한 사항은 커뮤니티를 참고하세요." />
         </LinearLayout>
 
         <TextView
@@ -71,9 +70,8 @@
             android:layout_marginLeft="@dimen/feed_item_margin"
             android:layout_marginRight="@dimen/feed_item_margin"
             android:layout_marginTop="@dimen/feed_item_margin"
-            android:text=" &apos;배려&apos;만든이"
-            android:textStyle="bold" />
-
+            android:text=" 만든이"
+			android:textColor="#424242"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/feed_item_margin"
                 android:layout_marginRight="@dimen/feed_item_margin"
-                android:text="이병근 (quki09@naver.com)\n제갈태진 (rlawh11@naver.com)"/>
+                android:text="맑은고딕\n\n-이병근 (quki09@naver.com)\n-제갈태진 (rlawh11@naver.com)"/>
         </LinearLayout>
     </LinearLayout>
 

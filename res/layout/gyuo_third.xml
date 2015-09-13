@@ -44,8 +44,7 @@
             android:layout_marginLeft="@dimen/feed_item_margin"
             android:layout_marginRight="@dimen/feed_item_margin"
             android:textColor="@color/black"
-            android:textSize="@dimen/feed_item_title"
-            android:textStyle="bold" />
+            android:textSize="@dimen/feed_item_title"/>
 
         <TextView
             android:id="@+id/telephone"

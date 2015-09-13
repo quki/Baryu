@@ -98,7 +98,7 @@ public class BookmarkSangse extends ListActivity {
 			public boolean onItemLongClick(AdapterView<?> parent,
 					final View view, final int position, long id) {
 
-				AlertDialog.Builder dlg = new AlertDialog.Builder(
+			    android.support.v7.app.AlertDialog.Builder dlg = new android.support.v7.app.AlertDialog.Builder(
 						BookmarkSangse.this);
 				dlg.setTitle("삭제");
 				dlg.setMessage("정말로 삭제 하시겠습니까?");
@@ -114,7 +114,7 @@ public class BookmarkSangse extends ListActivity {
 						sqlDB = myDBHelper.getWritableDatabase();
 						sqlDB.execSQL("DELETE FROM bookmark_SANGI WHERE myid='"
 								+ myId + "';");
-						Toast.makeText(getApplicationContext(),
+						Toast.makeText(BookmarkSangse.this,
 								"즐겨찾기에서 삭제되었습니다", Toast.LENGTH_SHORT).show();
 
 						list.remove(position);
